@@ -1,59 +1,17 @@
-<!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Mobile Web Contacts App</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+import React from "react";
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
-
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <div id="app">
-
-            <section class="contacts">
-                <ul class="contact-list">
-                    <li class="contact-item">
-                        <div class="img-container">
-                            <img src="img/placeholder.png" alt="">
-                        </div>
-                        <div class="contact-item-info">
-                            <h4 class="contanct-name">Contact Name</h4>
-                            <span class="contanct-tel">54564564564564</span>
-                        </div>
-                    </li>
-
-                    <li class="contact-item">
-                        <div class="img-container">
-                            <img src="img/placeholder.png" alt="">
-                        </div>
-                        <div class="contact-item-info">
-                            <h4 class="contanct-name">Contact Name</h4>
-                            <span class="contanct-tel">54564564564564</span>
-                        </div>
-                    </li>
-                </ul>
-            </section>
-
+export default class Contact extends React.Component {
+	render() {
+		return(
             <section class="detail">
                 <div class="menu-container">
                     <div class="back-mobile">
-                        <img class="svg-icons" src="img/left-arrow.svg">
+                        <img class="svg-icons" src="img/left-arrow.svg" />
                         <span>All Contacts</span>
                     </div>
                     <div class="edit">
-                        <img class="svg-icons" src="img/star.svg">
-                        <img class="svg-icons" src="img/edit.svg">
+                        <img class="svg-icons" src="img/star.svg" />
+                        <img class="svg-icons" src="img/edit.svg" />
                     </div>
                 </div>
 
@@ -62,7 +20,7 @@
                     <div class="basic-info">
 
                         <div class="img-container-large">
-                            <img src="img/placeholder-large.png">
+                            <img src="img/placeholder-large.png" />
                         </div>
 
                         <div class="name-company-block">
@@ -125,12 +83,6 @@
                 </div>
 
             </section>
-        </div>
-
-
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="js/client.min.js"></script>
-
-    </body>
-</html>
+		);
+	}
+}
