@@ -1,0 +1,198 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.container{
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list{
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list{
+    background-color: #ccc;
+}
+
+.contact-list .contact-item{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 3px solid white;
+}
+
+.contact-list .contact-item .img-container{
+    width: 30%;
+    margin: 10px 10px;
+}
+
+.contact-list .contact-item .img-container img{
+    max-width: 100%;
+}
+
+.contact-list .contact-item .contact-item-info{
+    width: 65%;
+}
+
+.contact-list .contact-item .contact-item-info h4{
+    margin-bottom: 0;
+}
+
+
+.detail{
+    //display: none;
+    color: #969696;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.detail .svg-icons{
+    width: 24px;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-container div{
+    margin-top: 20px;
+}
+
+.menu-container .edit img{
+    padding-right: 15px;
+}
+
+.contact-detail-form .info-group p{
+    color: #565454;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.contact-detail-form .info-group p.location{
+    margin-top: 20px;
+}
+
+.contact-detail-form .basic-info {
+    display: flex;
+}
+
+.contact-detail-form .basic-info .img-container-large{
+    width: 40%;
+    border: 2px solid #ccc;
+    margin-top: 20px;
+}
+
+.contact-detail-form .basic-info .img-container-large img{
+    max-width: 100%
+}
+
+.contact-detail-form .basic-info .name-company-block{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.contact-detail-form .extra-info .extra-item{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+

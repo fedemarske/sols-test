@@ -1,0 +1,255 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"show",
+				"show_list"
+			],
+			[
+				"sho",
+				"shopping_list"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/opt/nexus/apps/frontend/source/src/main/webapp/styles/base.less",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/plugins/mediacta/mediacta.js",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/modules/topmenu/topmenu.js",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/modules/topmenu/topmenu.tag",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/modules/service/component.js",
+		"/opt/nexus/apps/frontend/source/gulpfile.js",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/plugins/asset-image/asset-image.js",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/js/jquery-neo-ui/src/ndObject.js",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/modules/service/utils.js",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/plugins/social/prop/prop-facebook-like.tag",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/plugins/social/prop/prop-style.tag",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/plugins/social/social.js",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/plugins/forms/prop-form-settings.tag",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/plugins/forms/forms.js",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/js/jquery-neo-ui/src/Section.js",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/plugins/section/section.js",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/modules/service/storage.js",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/plugins/mediacta/thumb.png",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/plugins/forms/popover-form-settings.tag",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/styles/variables.less",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/modules/service/plugin.js",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/modules/property/render-properties.tag",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/modules/delete-confirmation-modal/delete-confirmation-modal.js",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/modules/delete-confirmation-modal/delete-confirmation-modal.tag",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/modules/property/property.js",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/js/jquery-neo-ui/src/NeoUi.js",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/js/jquery-neo-ui/src/DragHelper.js",
+		"/opt/nexus/etc/nginx/vhosts.conf",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/plugins/background/prop-background-movie.tag",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/plugins/video/prop/prop-video.tag",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/modules/menupanel/start-over-dialog.tag",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/plugins/anchor/prop/anchor-text.tag",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/plugins/_anchor/subprop-anchor.tag",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/locales/en/menupanel.json",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/locales/es/video.json",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/locales/en/video.json",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/modules/menupanel/menupanel.js",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/modules/pagemanager/pageadd-modal.tag",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/modules/onboarding/onboarding-modal.tag",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/modules/dic/dic.js",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/modules/thememanager/template-modal.tag",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/plugins/asset-image/prop-image-details.tag",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/plugins/asset-image/prop-image-style.tag",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/plugins/asset-image/prop-image-link.tag",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/plugins/anchor/prop/anchor-style.tag",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/plugins/anchor/prop/anchor-link.tag",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/modules/imageeditor/imageeditor-modal.tag",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/plugins/asset-list/prop-insert-asset.tag",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/plugins/asset-list/asset-list.less",
+		"/opt/nexus/apps/frontend/source/src/main/webapp/plugins/asset-list/asset-list.js",
+		"/home/fmarske/DEV/py_test/project-01/media.py",
+		"/home/fmarske/DEV/py_test/project-01/fresh_tomatoes.py",
+		"/home/fmarske/DEV/py_test/inheritance/inheritance.py",
+		"/home/fmarske/DEV/py_test/tips.txt",
+		"/home/fmarske/DEV/py_test/shopping_list/shopping_list.py",
+		"/home/fmarske/DEV/py_test/movies/media.py",
+		"/home/fmarske/DEV/py_test/break/break_time.py",
+		"/home/fmarske/DEV/py_test/secrete_msg/secret.py"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/opt/nexus/apps/frontend/source/src/main/webapp/styles",
+			"/opt/nexus/apps/frontend/source/src/main/webapp"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"beforeChangeState",
+			"before",
+			"undo",
+			"insert",
+			"delete",
+			"core",
+			"lighten",
+			"pageadd",
+			"add a page",
+			"start-over-dialog",
+			"information"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "package.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gulpfile",
+				"frontend/source/gulpfile.js"
+			],
+			[
+				"ndobject",
+				"frontend/source/src/main/webapp/js/jquery-neo-ui/src/ndObject.js"
+			],
+			[
+				"topmenu",
+				"frontend/source/src/main/webapp/modules/topmenu/topmenu.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 324.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
