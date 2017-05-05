@@ -105,13 +105,17 @@ textarea {
 
 .contacts{
     width: 100%;
-    height: 100%;
     position: relative;
     -webkit-transform: translateX(0);
     transform: translateX(0);
     -webkit-transition: .3s ease all;
     transition: .3s ease all;
+    height: 100vh;
+    overflow-y: scroll;
+}
 
+.contacts.off-mobile{
+    transform: translateX(100vw);
 }
 
 .contact-list{
@@ -129,6 +133,7 @@ textarea {
     display: flex;
     justify-content: space-around;
     border-bottom: 3px solid white;
+    cursor: pointer;
 }
 
 .contact-list .contact-item .img-container{
@@ -157,6 +162,11 @@ textarea {
     position: absolute;
     top: 0;
     left: 100vw;
+    overflow-y: auto;
+}
+
+.detail.show-mobile{
+    left: 0;
 }
 
 .detail .svg-icons{
@@ -183,17 +193,12 @@ textarea {
     margin-bottom: 0;
 }
 
-.contact-detail-form .info-group p.location{
-    margin-top: 20px;
-}
-
 .contact-detail-form .basic-info {
     display: flex;
 }
 
 .contact-detail-form .basic-info .img-container-large{
     width: 40%;
-    border: 2px solid #ccc;
     margin-top: 20px;
 }
 
@@ -208,9 +213,17 @@ textarea {
 
 .contact-detail-form .extra-info .extra-item{
     margin-top: 40px;
+}
+
+.contact-detail-form .extra-info .extra-item .categories{
     display: flex;
     justify-content: space-between;
 }
+
+.contact-detail-form .extra-info .extra-item .categories .location{
+    text-transform: capitalize;
+}
+
 
 
 /************** MEDIA QUERIES ************************/
@@ -243,6 +256,10 @@ textarea {
         background-color: gray;
     }
 
+    .contacts.off-mobile{
+        transform: translateX(0);
+    }
+
 
 }
 
@@ -250,5 +267,18 @@ textarea {
 
  /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+
+    .contact-list .contact-item .contact-item-info{
+        width: 85%;
+    }
+
+    .contact-list .contact-item .img-container{
+        width: 10%;
+        margin: 10px 10px;
+    }
+
+    .contact-detail-form .basic-info .img-container-large{
+        width: 15%;
+    }
 
 }
